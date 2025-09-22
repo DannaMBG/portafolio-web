@@ -6,6 +6,8 @@
     <title>Portafolio web</title>
 </head>
 <body>
+
+    <!-- Menú -->
     <header>
         <nav>
             <ul>
@@ -19,6 +21,8 @@
     </header>
 
     <main>
+
+        <!-- Presentación principal-->
         <section aria-label = "Presentación principal">
             <h1>Danna Montserrat Barron Guzman</h1>
             <h3>Estudiante en Ing. en Software y Tecnologías Emergentes</h2>
@@ -27,15 +31,148 @@
             <a href="#contact">Contacto</a>
         </section>
 
+        <!-- Sobre mí-->
         <section id="about" aria-label = "Sobre mí">
             <h2>Sobre mí</h2>
-            <img src="perfil.jpg" alt="Foto de Danna Montserrat Barron Guzman con Gigi">
-            <p></p>
+            <article>
+                <img src="perfil.jpg" alt="Foto de Danna Montserrat Barron Guzman con Gigi">
+                <div>
+                    <h3>¡Hola! soy DannaMBG</h3>
+                    <p> Soy estudiante de Ingeniería en Software y Tecnologías Emergentes con enfoque en UX/UI. 
+                        Desarrollo, diseño y programo aplicaciones con pasión por el trabajo en equipo y la innovación. 
+                        Creo que cada detalle, por pequeño que sea, puede marcar una diferencia.
+                    </p>
+                </div>
+            </article>
 
+            <aside >
+                <ul>
+                    <li>Café diario: <strong>2+</strong></li>
+                    <li>Semestre: <strong>7</strong></li>
+                    <li>Proyectos: <strong>4+</strong></li>
+                </ul>
+            </aside>
+        </section>
 
+        <!-- Habilidades -->
+        <section id="skills" aria-label = "Habilidades">
+            <h2>Mis habilidades</h2>
+            <p>Mi perfil se nutre de un conjunto de habilidades: </p>
 
-        
+            <article>
+                <h3>Lenguajes y programación</h3>
+                <ul>
+                    <li>C</li>
+                    <li>Java</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                </ul>
+            </article>
 
-    
+            <article>
+                <h3>Frameworks y herramientas</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>Github</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Diseños y prototipado</h3>
+                <ul>
+                    <li>Figma</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Otros</h3>
+                <ul>
+                    <li>Trabajo en equipo</li>
+                    <li>Comunicación asertiva</li>
+                    <li>Creatividad</li>
+                    <li>Gestión del tiempo</li>
+                </ul>
+            </article>
+
+        </section>
+
+        <!-- Proyectos -->
+         <section id="projects" aria-label = "Proyectos">
+            <h2>Mis proyectos</h2>
+            <p>Cada proyecto es como una flor distinta, con su propio color, esencia y reto.
+                Al igual que las abejas, mi misión es recolecctar lo mejor de cdad experiencia y trasformarlo
+                en soluciones útiles y atractivas.
+            </p>
+
+            <article>
+                <h3>OhPay</h3>
+                <p>Aplicación móvil para registrar préstamos, pagos e intercambios entre amigos.</p>
+                <a href="#">Código</a>
+                <a href="#">Demo</a>
+            </article>
+
+            <article>
+                <h3>OhPay</h3>
+                <p>Aplicación móvil para registrar préstamos, pagos e intercambios entre amigos.</p>
+                <a href="#">Código</a>
+                <a href="#">Demo</a>
+            </article>
+
+            <article>
+                <h3>OhPay</h3>
+                <p>Aplicación móvil para registrar préstamos, pagos e intercambios entre amigos.</p>
+                <a href="#">Código</a>
+                <a href="#">Demo</a>
+            </article>
+
+            <article>
+                <h3>OhPay</h3>
+                <p>Aplicación móvil para registrar préstamos, pagos e intercambios entre amigos.</p>
+                <a href="#">Código</a>
+                <a href="#">Demo</a>
+            </article>
+        </section>
+
+        <!-- Contacto -->
+         <section id="contact" aria-label = "Contacto">
+            <h2>¡Zumbemos juntos!</h2>
+            <p>Así como las abejas colaboran para crear algo extraordinario, te invito a unir fuerzas para desarrollar proyectos innovadores. 
+                Estoy siempre abierta a nuevas oportunidades y colaboraciones.
+            </p>
+            
+            <form>
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" required>
+                
+                <label for="asunto">Asunto</label>
+                <input type="text" id="asunto" name="asunto" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+
+            <aside>
+                <h3>Información de contacto y redes sociales</h3>
+                <ul>
+                   <li><a href="https://github.com/DannaMBG" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    <li><a href="https://discordapp.com/users/655609804198248469" target="_blank" rel="noopener noreferrer">Discord</a></li>
+                    <li><a href="https://www.linkedin.com/in/danna-barr%C3%B3n-guzm%C3%A1n-1b8453374?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                    <li><a href="mailto:danna.barron@uabc.edu.mx">Correo</a></li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <p>Construyendo tecnología con dedicación y precisión, como en una colmena.</p>
+        <p>&copy; 2025 Danna Montserrat Barron Guzman. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
